@@ -15,11 +15,6 @@ function budgetCalculator(phone, clock, laptop) {
 budgetCalculator(2, 2, 2);
 // hotelCost
 function hotelCost(number) {
-
-    // var oneToTen = number * 100;
-    // var elevenToTwenty = number * 80;
-    // var more = number * 50; 
-
     if (number <= 10) {
         var oneToTen = number * 100;
         console.log(oneToTen);
@@ -34,10 +29,6 @@ function hotelCost(number) {
         var moreThenTwenty = (10*100) + (10*80) + extraDays * 50;
         console.log(moreThenTwenty);
     }
-    
-    // var oneToTen = 11;
-    // var elevenToTwenty = number * 80;
-    // var more = number * 50; 
 }
 hotelCost(21);
 // Big Name Handler
